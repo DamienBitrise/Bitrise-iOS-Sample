@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A13652B328C1392400F3E9CF /* abseil in Frameworks */ = {isa = PBXBuildFile; productRef = A13652B228C1392400F3E9CF /* abseil */; };
+		A13652B628C1397D00F3E9CF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A13652B528C1397D00F3E9CF /* Alamofire */; };
+		A13652B928C1398C00F3E9CF /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A13652B828C1398C00F3E9CF /* AppAuth */; };
+		A13652BB28C1398C00F3E9CF /* AppAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = A13652BA28C1398C00F3E9CF /* AppAuthCore */; };
+		A13652BD28C1398C00F3E9CF /* AppAuthTV in Frameworks */ = {isa = PBXBuildFile; productRef = A13652BC28C1398C00F3E9CF /* AppAuthTV */; };
+		A13652C028C139A900F3E9CF /* openssl_grpc in Frameworks */ = {isa = PBXBuildFile; productRef = A13652BF28C139A900F3E9CF /* openssl_grpc */; };
 		A1F9B10725C380F200E21DE4 /* BitriseTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9B10625C380F200E21DE4 /* BitriseTestApp.swift */; };
 		A1F9B10925C380F200E21DE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9B10825C380F200E21DE4 /* ContentView.swift */; };
 		A1F9B10B25C380F400E21DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F9B10A25C380F400E21DE4 /* Assets.xcassets */; };
@@ -53,7 +58,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13652B928C1398C00F3E9CF /* AppAuth in Frameworks */,
 				A13652B328C1392400F3E9CF /* abseil in Frameworks */,
+				A13652BD28C1398C00F3E9CF /* AppAuthTV in Frameworks */,
+				A13652B628C1397D00F3E9CF /* Alamofire in Frameworks */,
+				A13652BB28C1398C00F3E9CF /* AppAuthCore in Frameworks */,
+				A13652C028C139A900F3E9CF /* openssl_grpc in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +160,11 @@
 			name = BitriseTest;
 			packageProductDependencies = (
 				A13652B228C1392400F3E9CF /* abseil */,
+				A13652B528C1397D00F3E9CF /* Alamofire */,
+				A13652B828C1398C00F3E9CF /* AppAuth */,
+				A13652BA28C1398C00F3E9CF /* AppAuthCore */,
+				A13652BC28C1398C00F3E9CF /* AppAuthTV */,
+				A13652BF28C139A900F3E9CF /* openssl_grpc */,
 			);
 			productName = BitriseTest;
 			productReference = A1F9B10325C380F200E21DE4 /* BitriseTest.app */;
@@ -224,6 +239,9 @@
 			mainGroup = A1F9B0FA25C380F200E21DE4;
 			packageReferences = (
 				A13652B128C1392400F3E9CF /* XCRemoteSwiftPackageReference "abseil-cpp-SwiftPM" */,
+				A13652B428C1397D00F3E9CF /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A13652B728C1398C00F3E9CF /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
+				A13652BE28C139A900F3E9CF /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */,
 			);
 			productRefGroup = A1F9B10425C380F200E21DE4 /* Products */;
 			projectDirPath = "";
@@ -608,6 +626,30 @@
 				kind = branch;
 			};
 		};
+		A13652B428C1397D00F3E9CF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A13652B728C1398C00F3E9CF /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openid/AppAuth-iOS.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A13652BE28C139A900F3E9CF /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/boringssl-SwiftPM.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -615,6 +657,31 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A13652B128C1392400F3E9CF /* XCRemoteSwiftPackageReference "abseil-cpp-SwiftPM" */;
 			productName = abseil;
+		};
+		A13652B528C1397D00F3E9CF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A13652B428C1397D00F3E9CF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A13652B828C1398C00F3E9CF /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A13652B728C1398C00F3E9CF /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuth;
+		};
+		A13652BA28C1398C00F3E9CF /* AppAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A13652B728C1398C00F3E9CF /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuthCore;
+		};
+		A13652BC28C1398C00F3E9CF /* AppAuthTV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A13652B728C1398C00F3E9CF /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuthTV;
+		};
+		A13652BF28C139A900F3E9CF /* openssl_grpc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A13652BE28C139A900F3E9CF /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */;
+			productName = openssl_grpc;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
