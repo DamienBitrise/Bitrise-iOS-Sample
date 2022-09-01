@@ -242,6 +242,30 @@
 				A13652B428C1397D00F3E9CF /* XCRemoteSwiftPackageReference "Alamofire" */,
 				A13652B728C1398C00F3E9CF /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
 				A13652BE28C139A900F3E9CF /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */,
+				A13652C128C13A8500F3E9CF /* XCRemoteSwiftPackageReference "braintree_ios" */,
+				A13652C228C13B2100F3E9CF /* XCRemoteSwiftPackageReference "Coordinator" */,
+				A13652C328C13B3300F3E9CF /* XCRemoteSwiftPackageReference "DiffableDataSources" */,
+				A13652C428C13B4700F3E9CF /* XCRemoteSwiftPackageReference "DifferenceKit" */,
+				A13652C528C13B5700F3E9CF /* XCRemoteSwiftPackageReference "DZNEmptyDataSet" */,
+				A13652C628C13B6A00F3E9CF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				A13652C728C13B8B00F3E9CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A13652C828C13B9E00F3E9CF /* XCRemoteSwiftPackageReference "forter-sdk-ios" */,
+				A13652C928C13BAD00F3E9CF /* XCRemoteSwiftPackageReference "GoogleAnalytics-iOS" */,
+				A13652CA28C13BBE00F3E9CF /* XCRemoteSwiftPackageReference "GoogleAppMeasurement" */,
+				A13652CB28C13BD000F3E9CF /* XCRemoteSwiftPackageReference "GoogleDataTransport" */,
+				A13652CC28C13BE100F3E9CF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				A13652CD28C13BF000F3E9CF /* XCRemoteSwiftPackageReference "GoogleTagManager-iOS" */,
+				A13652CE28C13BFF00F3E9CF /* XCRemoteSwiftPackageReference "GoogleUtilities" */,
+				A13652CF28C13C0F00F3E9CF /* XCRemoteSwiftPackageReference "grpc-ios" */,
+				A13652D028C13C2100F3E9CF /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */,
+				A13652D128C13C3500F3E9CF /* XCRemoteSwiftPackageReference "GTMAppAuth" */,
+				A13652D228C13CA800F3E9CF /* XCRemoteSwiftPackageReference "Inspector" */,
+				A13652D328C13CBA00F3E9CF /* XCRemoteSwiftPackageReference "ios_sdk" */,
+				A13652D428C13CC900F3E9CF /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				A13652D528C13CD700F3E9CF /* XCRemoteSwiftPackageReference "klarna-mobile-sdk-spm" */,
+				A13652D628C13CE700F3E9CF /* XCRemoteSwiftPackageReference "leveldb" */,
+				A13652D728C13CF600F3E9CF /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				A13652D828C13D0700F3E9CF /* XCRemoteSwiftPackageReference "MarketingCloudSDK-iOS" */,
 			);
 			productRefGroup = A1F9B10425C380F200E21DE4 /* Products */;
 			projectDirPath = "";
@@ -645,6 +669,198 @@
 		A13652BE28C139A900F3E9CF /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/boringssl-SwiftPM.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A13652C128C13A8500F3E9CF /* XCRemoteSwiftPackageReference "braintree_ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/braintree/braintree_ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A13652C228C13B2100F3E9CF /* XCRemoteSwiftPackageReference "Coordinator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ipedro/Coordinator.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A13652C328C13B3300F3E9CF /* XCRemoteSwiftPackageReference "DiffableDataSources" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ra1028/DiffableDataSources";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A13652C428C13B4700F3E9CF /* XCRemoteSwiftPackageReference "DifferenceKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ra1028/DifferenceKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A13652C528C13B5700F3E9CF /* XCRemoteSwiftPackageReference "DZNEmptyDataSet" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dzenbot/DZNEmptyDataSet";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A13652C628C13B6A00F3E9CF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A13652C728C13B8B00F3E9CF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A13652C828C13B9E00F3E9CF /* XCRemoteSwiftPackageReference "forter-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Nonnus/forter-sdk-ios";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A13652C928C13BAD00F3E9CF /* XCRemoteSwiftPackageReference "GoogleAnalytics-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Nonnus/GoogleAnalytics-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A13652CA28C13BBE00F3E9CF /* XCRemoteSwiftPackageReference "GoogleAppMeasurement" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleAppMeasurement.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A13652CB28C13BD000F3E9CF /* XCRemoteSwiftPackageReference "GoogleDataTransport" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleDataTransport.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A13652CC28C13BE100F3E9CF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A13652CD28C13BF000F3E9CF /* XCRemoteSwiftPackageReference "GoogleTagManager-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Nonnus/GoogleTagManager-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A13652CE28C13BFF00F3E9CF /* XCRemoteSwiftPackageReference "GoogleUtilities" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleUtilities.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		A13652CF28C13C0F00F3E9CF /* XCRemoteSwiftPackageReference "grpc-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/grpc/grpc-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+		A13652D028C13C2100F3E9CF /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/gtm-session-fetcher.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A13652D128C13C3500F3E9CF /* XCRemoteSwiftPackageReference "GTMAppAuth" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GTMAppAuth.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		A13652D228C13CA800F3E9CF /* XCRemoteSwiftPackageReference "Inspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ipedro/Inspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		A13652D328C13CBA00F3E9CF /* XCRemoteSwiftPackageReference "ios_sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adjust/ios_sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A13652D428C13CC900F3E9CF /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A13652D528C13CD700F3E9CF /* XCRemoteSwiftPackageReference "klarna-mobile-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/klarna/klarna-mobile-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		A13652D628C13CE700F3E9CF /* XCRemoteSwiftPackageReference "leveldb" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/leveldb.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		A13652D728C13CF600F3E9CF /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		A13652D828C13D0700F3E9CF /* XCRemoteSwiftPackageReference "MarketingCloudSDK-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Nonnus/MarketingCloudSDK-iOS.git";
 			requirement = {
 				branch = main;
 				kind = branch;
