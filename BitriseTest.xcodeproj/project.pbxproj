@@ -277,8 +277,6 @@
 				A13652E228C13E8E00F3E9CF /* XCRemoteSwiftPackageReference "UIKeyboardAnimatable" */,
 				A13652E328C13E9E00F3E9CF /* XCRemoteSwiftPackageReference "UIKeyCommandTableView" */,
 				A13652E428C13EAD00F3E9CF /* XCRemoteSwiftPackageReference "UIKitOptions" */,
-				A13652E528C13EBC00F3E9CF /* XCRemoteSwiftPackageReference "usabilla-u4a-ios-swift-sdk" */,
-				A13652E628C13ECB00F3E9CF /* XCRemoteSwiftPackageReference "userleap-ios-sdk-releases" */,
 				A13652E728C13EDA00F3E9CF /* XCRemoteSwiftPackageReference "XCGLogger" */,
 			);
 			productRefGroup = A1F9B10425C380F200E21DE4 /* Products */;
@@ -966,22 +964,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 0.3.3;
-			};
-		};
-		A13652E528C13EBC00F3E9CF /* XCRemoteSwiftPackageReference "usabilla-u4a-ios-swift-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/usabilla/usabilla-u4a-ios-swift-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-		A13652E628C13ECB00F3E9CF /* XCRemoteSwiftPackageReference "userleap-ios-sdk-releases" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/UserLeap/userleap-ios-sdk-releases";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
 			};
 		};
 		A13652E728C13EDA00F3E9CF /* XCRemoteSwiftPackageReference "XCGLogger" */ = {
