@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A13652B328C1392400F3E9CF /* abseil in Frameworks */ = {isa = PBXBuildFile; productRef = A13652B228C1392400F3E9CF /* abseil */; };
 		A1F9B10725C380F200E21DE4 /* BitriseTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9B10625C380F200E21DE4 /* BitriseTestApp.swift */; };
 		A1F9B10925C380F200E21DE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9B10825C380F200E21DE4 /* ContentView.swift */; };
 		A1F9B10B25C380F400E21DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F9B10A25C380F400E21DE4 /* Assets.xcassets */; };
@@ -52,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13652B328C1392400F3E9CF /* abseil in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = BitriseTest;
+			packageProductDependencies = (
+				A13652B228C1392400F3E9CF /* abseil */,
+			);
 			productName = BitriseTest;
 			productReference = A1F9B10325C380F200E21DE4 /* BitriseTest.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +222,9 @@
 				Base,
 			);
 			mainGroup = A1F9B0FA25C380F200E21DE4;
+			packageReferences = (
+				A13652B128C1392400F3E9CF /* XCRemoteSwiftPackageReference "abseil-cpp-SwiftPM" */,
+			);
 			productRefGroup = A1F9B10425C380F200E21DE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -590,6 +598,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A13652B128C1392400F3E9CF /* XCRemoteSwiftPackageReference "abseil-cpp-SwiftPM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/abseil-cpp-SwiftPM.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A13652B228C1392400F3E9CF /* abseil */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A13652B128C1392400F3E9CF /* XCRemoteSwiftPackageReference "abseil-cpp-SwiftPM" */;
+			productName = abseil;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1F9B0FB25C380F200E21DE4 /* Project object */;
 }
