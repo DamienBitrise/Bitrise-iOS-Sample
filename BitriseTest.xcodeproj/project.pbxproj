@@ -266,6 +266,21 @@
 				A13652D628C13CE700F3E9CF /* XCRemoteSwiftPackageReference "leveldb" */,
 				A13652D728C13CF600F3E9CF /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				A13652D828C13D0700F3E9CF /* XCRemoteSwiftPackageReference "MarketingCloudSDK-iOS" */,
+				A13652D928C13DCF00F3E9CF /* XCRemoteSwiftPackageReference "popup-bridge-ios" */,
+				A13652DA28C13DDF00F3E9CF /* XCRemoteSwiftPackageReference "promises" */,
+				A13652DB28C13DF100F3E9CF /* XCRemoteSwiftPackageReference "Pulley" */,
+				A13652DC28C13E0200F3E9CF /* XCRemoteSwiftPackageReference "Resolver" */,
+				A13652DD28C13E1100F3E9CF /* XCRemoteSwiftPackageReference "sdk-ios" */,
+				A13652DE28C13E5000F3E9CF /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				A13652DF28C13E6000F3E9CF /* XCRemoteSwiftPackageReference "swift-protobuf" */,
+				A13652E028C13E7000F3E9CF /* XCRemoteSwiftPackageReference "swift-sdk" */,
+				A13652E128C13E7F00F3E9CF /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */,
+				A13652E228C13E8E00F3E9CF /* XCRemoteSwiftPackageReference "UIKeyboardAnimatable" */,
+				A13652E328C13E9E00F3E9CF /* XCRemoteSwiftPackageReference "UIKeyCommandTableView" */,
+				A13652E428C13EAD00F3E9CF /* XCRemoteSwiftPackageReference "UIKitOptions" */,
+				A13652E528C13EBC00F3E9CF /* XCRemoteSwiftPackageReference "usabilla-u4a-ios-swift-sdk" */,
+				A13652E628C13ECB00F3E9CF /* XCRemoteSwiftPackageReference "userleap-ios-sdk-releases" */,
+				A13652E728C13EDA00F3E9CF /* XCRemoteSwiftPackageReference "XCGLogger" */,
 			);
 			productRefGroup = A1F9B10425C380F200E21DE4 /* Products */;
 			projectDirPath = "";
@@ -864,6 +879,126 @@
 			requirement = {
 				branch = main;
 				kind = branch;
+			};
+		};
+		A13652D928C13DCF00F3E9CF /* XCRemoteSwiftPackageReference "popup-bridge-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/braintree/popup-bridge-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		A13652DA28C13DDF00F3E9CF /* XCRemoteSwiftPackageReference "promises" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/promises.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		A13652DB28C13DF100F3E9CF /* XCRemoteSwiftPackageReference "Pulley" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/52inc/Pulley";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		A13652DC28C13E0200F3E9CF /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		A13652DD28C13E1100F3E9CF /* XCRemoteSwiftPackageReference "sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/applanga/sdk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		A13652DE28C13E5000F3E9CF /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		A13652DF28C13E6000F3E9CF /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-protobuf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		A13652E028C13E7000F3E9CF /* XCRemoteSwiftPackageReference "swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/optimizely/swift-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A13652E128C13E7F00F3E9CF /* XCRemoteSwiftPackageReference "SwiftKeychainWrapper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrendel/SwiftKeychainWrapper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		A13652E228C13E8E00F3E9CF /* XCRemoteSwiftPackageReference "UIKeyboardAnimatable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ipedro/UIKeyboardAnimatable.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		A13652E328C13E9E00F3E9CF /* XCRemoteSwiftPackageReference "UIKeyCommandTableView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ipedro/UIKeyCommandTableView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.3;
+			};
+		};
+		A13652E428C13EAD00F3E9CF /* XCRemoteSwiftPackageReference "UIKitOptions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ipedro/UIKitOptions.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.3;
+			};
+		};
+		A13652E528C13EBC00F3E9CF /* XCRemoteSwiftPackageReference "usabilla-u4a-ios-swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/usabilla/usabilla-u4a-ios-swift-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		A13652E628C13ECB00F3E9CF /* XCRemoteSwiftPackageReference "userleap-ios-sdk-releases" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/UserLeap/userleap-ios-sdk-releases";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		A13652E728C13EDA00F3E9CF /* XCRemoteSwiftPackageReference "XCGLogger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/DaveWoodCom/XCGLogger";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
