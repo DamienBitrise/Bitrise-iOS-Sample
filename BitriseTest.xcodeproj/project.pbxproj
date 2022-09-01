@@ -256,7 +256,6 @@
 				A13652CC28C13BE100F3E9CF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 				A13652CD28C13BF000F3E9CF /* XCRemoteSwiftPackageReference "GoogleTagManager-iOS" */,
 				A13652CE28C13BFF00F3E9CF /* XCRemoteSwiftPackageReference "GoogleUtilities" */,
-				A13652CF28C13C0F00F3E9CF /* XCRemoteSwiftPackageReference "grpc-ios" */,
 				A13652D028C13C2100F3E9CF /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */,
 				A13652D128C13C3500F3E9CF /* XCRemoteSwiftPackageReference "GTMAppAuth" */,
 				A13652D228C13CA800F3E9CF /* XCRemoteSwiftPackageReference "Inspector" */,
@@ -799,14 +798,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 7.0.0;
-			};
-		};
-		A13652CF28C13C0F00F3E9CF /* XCRemoteSwiftPackageReference "grpc-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/grpc/grpc-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.0.1;
 			};
 		};
 		A13652D028C13C2100F3E9CF /* XCRemoteSwiftPackageReference "gtm-session-fetcher" */ = {
