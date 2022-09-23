@@ -54,7 +54,7 @@ workflows:
     - deploy-to-bitrise-io@2: {}
 meta:
   bitrise.io:
-    machine_type_id: standard
+    machine_type_id: g2.4core
 app:
   envs:
   - opts:
