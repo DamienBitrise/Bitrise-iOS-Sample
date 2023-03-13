@@ -1,0 +1,11 @@
+name: BashScript
+
+on: push
+
+jobs:
+  bash_1:
+    name: bash_1
+    runs-on: ubuntu-latest
+    
+    steps:
+      - run: less /proc/cpuinfo
